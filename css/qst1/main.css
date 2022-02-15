@@ -1,0 +1,74 @@
+.txt {
+	margin-top: 10vh;
+	margin-right: 50px;
+	margin-left: 50px;
+	color: white;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 20px;
+	text-align: center;
+	line-height: 45px;
+}
+#choice {
+	margin: 30vh;
+	margin-bottom: 0;
+}
+.link-2 {
+	margin: 40px;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	text-decoration: none;
+	color: black;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 20px;
+	animation: flash 2.5s linear infinite;
+}
+.link-3 {
+	animation: flash-2 2.5s linear infinite;
+}
+.link-2:hover {
+	animation: none;
+	font-size: 30px;
+	color: rgb(109, 216, 109);
+	text-decoration: underline white;
+	line-height: 30px;
+	transition-duration: 400ms;
+}
+.link-3:hover #t1 {
+	animation: none;
+	color: black;
+}
+.link-3:hover {
+	animation: none;
+	font-size: 25px;
+	color: rgb(206, 71, 71);
+}
+
+@keyframes flash {
+	0% {
+		color: black;
+		text-shadow: 0 0 7px #ff6c00;
+	}
+	60% {
+		color: #fff900;
+		text-shadow: 0 0 7px #ff6c00;
+	}
+	100% {
+		color: black;
+		text-shadow: 0 0 7px #ff6c00;
+	}
+}
+@keyframes flash-2 {
+	0% {
+		color: #fff900;
+		text-shadow: 0 0 7px #ff6c00;
+	}
+	40% {
+		color: black;
+		text-shadow: 0 0 7px #ff6c00;
+	}
+	100% {
+		color: #fff900;
+		text-shadow: 0 0 7px #ff6c00;
+	}
+}
