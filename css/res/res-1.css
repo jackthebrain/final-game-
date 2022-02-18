@@ -1,0 +1,11 @@
+body {
+	background-color: black;
+}
+p {
+	font-family: 'Press Start 2P', cursive;
+	font-size: 20px;
+	margin: 42vh;
+	color: white;
+	text-align: center;
+	line-height: 30px;
+}
